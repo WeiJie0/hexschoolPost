@@ -22,6 +22,15 @@
 
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-193130163-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-193130163-1');
+  </script>
 
 </head>
 <style>
@@ -33,7 +42,7 @@
 
   @media screen and (max-width:767px) {
     img {
-      max-width: 80%;
+      max-width: 80% !important;
     }
   }
 </style>
